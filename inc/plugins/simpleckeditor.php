@@ -266,7 +266,7 @@ function simpleckeditor($bind="message", $smilies = true) {
 		$ckePath = $mybb->settings['bburl'].'/ckeditor/ckeditor.js';
 	}
 	else {
-		$ckePath = '//cdn.ckeditor.com/4.6.0/full/ckeditor.js';
+		$ckePath = '//cdn.ckeditor.com/4.14.0/full/ckeditor.js';
 	}
 	$codebuttons = <<<CODE
 		<script src="{$ckePath}"></script>
