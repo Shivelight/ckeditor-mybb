@@ -11,6 +11,7 @@ CKEDITOR.editorConfig = function (config) {
 	// not needed in the Standard(s) toolbar.
 	config.removeButtons = 'Subscript,Superscript';
 
+	config.imgurClientID = '';
 
 	config.fontSize_sizes = 'XX Small/xx-small;X Small/x-small;Small/small;Medium/medium;Large/large;X Large/x-large;XX Large/xx-large';
 
