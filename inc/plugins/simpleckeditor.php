@@ -151,18 +151,20 @@ function simpleckeditor_activate()
 
     {
         name: 'links',
-        items: ['Link', 'Unlink', ]
+        items: ['Link', 'Unlink']
     },
     {
         name: 'insert',
-        items: ['Image', 'HorizontalRule', 'Smiley', 'SpecialChar', ]
+        items: ['Image', 'Imgur', 'HorizontalRule', 'Smiley', 'SpecialChar']
     },
-
     {
         name: 'list',
         items: ['NumberedList', 'BulletedList']
     },
-
+    {
+        name: 'mybbcode',
+        items: ['mybbinsertcode', 'mybbinsertphp']
+    },
     {
         name: 'clipboard',
         items: ['PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']
