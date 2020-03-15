@@ -5,7 +5,7 @@
 
 CKEDITOR.editorConfig = function (config) {
 
-	config.extraPlugins = 'mybbmycode,mybbinsertcode,mybbinsertphp';
+	config.extraPlugins = 'mybbmycode,mybbinsertcode,mybbinsertphp,imgur';
 
 	// Remove some buttons provided by the standard plugins, which are
 	// not needed in the Standard(s) toolbar.

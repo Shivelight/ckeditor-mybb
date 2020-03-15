@@ -327,7 +327,7 @@ function simpleckeditor($bind="message", $smilies = true) {
 		</style>
 		<script type="text/javascript">
 			{
-				var plugins = ['mybbmycode','mybbinsertcode','mybbinsertphp', 'mybbfixquote'];
+				var plugins = ['mybbmycode','mybbinsertcode','mybbinsertphp', 'mybbfixquote', 'imgur'];
 				for(var pluginIndex in plugins)
 				{
 					var plugin = plugins[pluginIndex];
