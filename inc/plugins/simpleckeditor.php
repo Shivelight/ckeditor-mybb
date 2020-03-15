@@ -126,15 +126,55 @@ function simpleckeditor_activate()
 		'toolbar'	=> array(
 			'optionscode'	=> 'textarea',
 			'value'			=> "[
-	['Source', '-', 'NewPage'],
-	['Cut', 'Copy', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo'],
-	['Find', 'Replace', '-', 'SelectAll', '-', 'Scayt'],
-	['Bold', 'Italic', 'Underline', 'Strike', '-', 'CopyFormatting', 'RemoveFormat'],
-	['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent'],
-	['Blockquote', '-', 'mybbinsertcode', 'mybbinsertphp'],
-	['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', 'Font', 'FontSize', 'TextColor'],
-	['HorizontalRule', 'Image', '-', 'Link', 'Unlink', '-', 'SpecialChar'],
-	['Maximize', 'About']
+    {
+        name: 'basicstyles',
+        items: ['Bold', 'Italic', 'Underline', 'Strike']
+    },
+
+    {
+        name: 'paragraph',
+        items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']
+    },
+    {
+        name: 'styles',
+        items: ['Font', 'FontSize']
+    },
+    {
+        name: 'colors',
+        items: ['TextColor']
+    },
+
+    {
+        name: 'cleanup',
+        items: ['RemoveFormat']
+    },
+
+    {
+        name: 'links',
+        items: ['Link', 'Unlink', ]
+    },
+    {
+        name: 'insert',
+        items: ['Image', 'HorizontalRule', 'Smiley', 'SpecialChar', ]
+    },
+
+    {
+        name: 'list',
+        items: ['NumberedList', 'BulletedList']
+    },
+
+    {
+        name: 'clipboard',
+        items: ['PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']
+    },
+    {
+        name: 'tools',
+        items: ['Maximize']
+    },
+    {
+        name: 'document',
+        items: ['Source']
+    },
 ]"
 		),
 		'disallowed_pages'	=> array(
